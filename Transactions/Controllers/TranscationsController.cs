@@ -41,7 +41,7 @@ namespace Transactions.Controllers
 
         public void publish(String body)
         {
-            var config = new ProducerConfig { BootstrapServers = "localhost:9092" };
+            var config = new ProducerConfig { BootstrapServers = "52.15.233.255:9092" };
             string somestring = body;//JsonSerializer.Serialize(some);
             using (var p = new ProducerBuilder<Null, string>(config).Build())
             {

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/vishnu/Projects/Transactions/Transactions/Transactions.csproj": {}
+    "/Users/vishnu/transactions/Transactions/Transactions.csproj": {}
   },
   "projects": {
-    "/Users/vishnu/Projects/Transactions/Transactions/Transactions.csproj": {
+    "/Users/vishnu/transactions/Transactions/Transactions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/vishnu/Projects/Transactions/Transactions/Transactions.csproj",
+        "projectUniqueName": "/Users/vishnu/transactions/Transactions/Transactions.csproj",
         "projectName": "Transactions",
-        "projectPath": "/Users/vishnu/Projects/Transactions/Transactions/Transactions.csproj",
+        "projectPath": "/Users/vishnu/transactions/Transactions/Transactions.csproj",
         "packagesPath": "/Users/vishnu/.nuget/packages/",
-        "outputPath": "/Users/vishnu/Projects/Transactions/Transactions/obj/",
+        "outputPath": "/Users/vishnu/transactions/Transactions/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/vishnu/.config/NuGet/NuGet.Config"
