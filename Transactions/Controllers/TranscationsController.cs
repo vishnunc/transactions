@@ -39,7 +39,7 @@ namespace Transactions.Controllers
             return body;
         }
 
-        public void publish(String body)
+        public async void publish(String body)
         {
             var config = new ProducerConfig { BootstrapServers = "52.15.233.255:9092" };
             string somestring = body;//JsonSerializer.Serialize(some);
@@ -47,7 +47,7 @@ namespace Transactions.Controllers
             {
                 try
                 {
-                    var dr = p.ProduceAsync("program-creation", new Message<Null, string> { Value = somestring });
+                    var dr = await p.ProduceAsync("program-creation", new Message<Null, string> { Value = somestring });
                     //Console.WriteLine($"Delivered '{dr.Value}' to '{dr.TopicPartitionOffset}'");
                     Console.WriteLine("Publish Completed!");
                 }
