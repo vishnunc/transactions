@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{418202CF-E744-4F3A-842D-D4B893059C94}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Transactions/Controllers/TranscationsController.cs">
+    <Files>
+      <File FileName="Transactions/Properties/launchSettings.json" Line="30" Column="2" />
+      <File FileName="Transactions/Controllers/TranscationsController.cs" Line="52" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Transactions" expanded="True">
+            <Node name="Transactions" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="TranscationsController.cs" selected="True" />
+              </Node>
+              <Node name="Properties" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Transactions PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/vishnu/Projects/Transactions/Transactions/Controllers/TranscationsController.cs" relfile="Transactions/Controllers/TranscationsController.cs" line="52" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
